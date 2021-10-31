@@ -1,0 +1,80 @@
+[
+  {
+    "title": "Progressive Web App",
+    "desc": "Learn if a website has the basics setup for a Progressive Web App. [Learn more](https://developers.google.com/web/progressive-web-apps/checklist).",
+    "content": [
+      {
+        "id": "is-on-https",
+        "title": "Uses HTTPS",
+        "description": "All sites should be protected with HTTPS, even ones that don't handle sensitive data. This includes avoiding [mixed content](https://developers.google.com/web/fundamentals/security/prevent-mixed-content/what-is-mixed-content), where some resources are loaded over HTTP despite the initial request being served over HTTPS. HTTPS prevents intruders from tampering with or passively listening in on the communications between your app and your users, and is a prerequisite for HTTP/2 and many new web platform APIs. [Learn more](https://web.dev/is-on-https/).",
+        "score": 1,
+        "scoreDisplayMode": "binary",
+        "details": {
+          "type": "table",
+          "headings": [],
+          "items": []
+        }
+      }
+    ]
+  },
+  {
+    "title": "Page Speed",
+    "desc": "Test your website for page speed performance. [Learn more](https://web.dev/speed-index/).",
+    "content": [
+      {
+        "id": "speed-index",
+        "title": "Speed Index",
+        "description": "Speed Index shows how quickly the contents of a page are visibly populated. [Learn more](https://web.dev/speed-index/).",
+        "score": 0.01,
+        "scoreDisplayMode": "numeric",
+        "numericValue": 15065.58236964474,
+        "numericUnit": "millisecond",
+        "displayValue": "15.1 s"
+      }
+    ]
+  },
+  {
+    "title": "SEO Essentials",
+    "desc": "Check your webpage for the important tags that search engines look for. [Learn more](https://support.google.com/webmasters/answer/35769).",
+    "content": [
+      {
+        "id": "document-title",
+        "title": "Document has a `<title>` element",
+        "description": "The title gives screen reader users an overview of the page, and search engine users rely on it heavily to determine if a page is relevant to their search. [Learn more](https://web.dev/document-title/).",
+        "score": 1,
+        "scoreDisplayMode": "binary",
+        "details": {
+          "type": "table",
+          "headings": [],
+          "items": []
+        }
+      },
+      {
+        "id": "meta-description",
+        "title": "Document has a meta description",
+        "description": "Meta descriptions may be included in search results to concisely summarize page content. [Learn more](https://web.dev/meta-description/).",
+        "score": 1,
+        "scoreDisplayMode": "binary"
+      },
+      {
+        "id": "canonical",
+        "title": "Document has a valid `rel=canonical`",
+        "description": "Canonical links suggest which URL to show in search results. [Learn more](https://web.dev/canonical/).",
+        "score": 1,
+        "scoreDisplayMode": "binary"
+      },
+      {
+        "id": "html-lang-valid",
+        "title": "`<html>` element has a valid value for its `[lang]` attribute",
+        "description": "Specifying a valid [BCP 47 language](https://www.w3.org/International/questions/qa-choosing-language-tags#question) helps screen readers announce text properly. [Learn more](https://web.dev/html-lang-valid/).",
+        "score": 1,
+        "scoreDisplayMode": "binary",
+        "details": {
+          "type": "table",
+          "headings": [],
+          "items": []
+        }
+      }
+    ]
+  }
+]
